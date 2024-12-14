@@ -8,10 +8,10 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Rider
   - Water
   - UI
-  - 
+  - Motorcycle
   - 
   - 
   - 
@@ -40,4 +40,28 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Pelvis
+    uniqueID: 3097484961
+    locked: 0
+  - name: Neck
+    uniqueID: 1934468699
+    locked: 0
+  - name: Chest
+    uniqueID: 985051067
+    locked: 0
+  - name: Head
+    uniqueID: 1165763073
+    locked: 0
+  - name: Hip
+    uniqueID: 4229502427
+    locked: 0
+  - name: Shin
+    uniqueID: 1489592617
+    locked: 0
+  - name: Forearm
+    uniqueID: 3035379039
+    locked: 0
+  - name: Shoulder
+    uniqueID: 688243751
     locked: 0

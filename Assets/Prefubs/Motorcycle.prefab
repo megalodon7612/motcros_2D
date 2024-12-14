@@ -407,6 +407,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -3888481672020999207, guid: a71c090f0ccb7e74b8c6d7d92ee3ad39, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3703034604009864661}
+    - targetCorrespondingSourceObject: {fileID: -3888481672020999207, guid: a71c090f0ccb7e74b8c6d7d92ee3ad39, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7111708036221823819}
   m_SourcePrefab: {fileID: 7243324766535440047, guid: a71c090f0ccb7e74b8c6d7d92ee3ad39, type: 3}
 --- !u!1 &6141500812749411815 stripped
 GameObject:
@@ -525,6 +528,23 @@ WheelJoint2D:
   m_Motor:
     m_MotorSpeed: 0
     m_MaximumMotorForce: 10000
+--- !u!114 &7111708036221823819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6141500812749411815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64e7f40b62e035241807775db0ace38b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _acceleration: 1500
+  _rotationPower: 30
+  _motorcyclRb: {fileID: 5573960510162155380}
+  _frontWheel: {fileID: 3703034604009864661}
+  _backWheel: {fileID: 6498535853956548465}
 --- !u!4 &7376918774786324957 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8742538545776668643, guid: a71c090f0ccb7e74b8c6d7d92ee3ad39, type: 3}
